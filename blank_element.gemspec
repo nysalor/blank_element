@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = BlankElement::VERSION
   spec.authors       = ["Jun Yokoyama"]
   spec.email         = ["jun@larus.org"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{manage blank elements of Array objects.}
+  spec.description   = %q{manage blank elements of Array objects.(Rails is not required, but ActiveSupport is required.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,8 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+  spec.add_dependency 'activesupport'
+
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "faker"
 end
