@@ -18,7 +18,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'blank_element'
+
+array = ['battleship', 'cruiser', 'destroyer', ' ']
+array.blank_all? # => false
+arra.present_any? # => true
+array.reject_blank # => ['battleship', 'cruiser', 'destroyer']
+array.reject_blank! # => bang method
+
+blank_array = [' ', ' ', ' ']
+blank_array.blank_all? # => true
+blank_array.present_any? # => false
+
+empty_array = []
+empty_array.blank_all? # => true
+empty_array.present_any? # => false
+```
 
 ## Contributing
 
