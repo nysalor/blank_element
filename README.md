@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nysalor/blank_element.svg?branch=master)](https://travis-ci.org/nysalor/blank_element)
+
 # BlankElement
 
 remove blank or null elements from Array object
