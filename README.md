@@ -1,6 +1,6 @@
 # BlankElement
 
-TODO: Write a gem description
+remove blank or null elements from Array object
 
 ## Installation
 
